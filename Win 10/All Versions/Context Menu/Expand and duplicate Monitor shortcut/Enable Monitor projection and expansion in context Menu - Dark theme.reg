@@ -1,0 +1,51 @@
+Windows Registry Editor Version 5.00
+
+; Dark
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Project]
+"Icon"="DDORes.dll,-2102"
+"MUIVerb"="Project"
+"Position"="Bottom"
+"SubCommands"=""
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\001]
+"MUIVerb"="Only PC-Monitor"
+"Icon"="DisplaySwitch.exe,-9310"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\001\command]
+@="%windir%\System32\DisplaySwitch.exe /internal"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\002]
+"Icon"="DisplaySwitch.exe,-9311"
+"MUIVerb"="Duplicate"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\002\command]
+@="%windir%\System32\DisplaySwitch.exe /clone"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\003]
+"Icon"="DisplaySwitch.exe,-9312"
+"MUIVerb"="Expand"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\003\command]
+@="%windir%\System32\DisplaySwitch.exe /extend"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\004]
+"Icon"="DisplaySwitch.exe,-9313"
+"MUIVerb"="Only second Monitor"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\004\command]
+@="%windir%\System32\DisplaySwitch.exe /external"
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\005]
+"Icon"="WlanMM.dll,-3136"
+"MUIVerb"="Connect to a wireless Display"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Projizieren\shell\005\command]
+@="explorer.exe ms-settings-connectabledevices:devicediscovery"
+
