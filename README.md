@@ -144,3 +144,4 @@ Research
 * [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) 
 * [Sandbox Configuration Manager](https://gallery.technet.microsoft.com/Windows-Sandbox-Configurati-f2c863dc)
 * [PowerToys](https://github.com/microsoft/PowerToys)
+* [Administrative Templates (.admx) for Windows 10 May 2019 Update (1909)](https://www.microsoft.com/en-us/download/100591)
