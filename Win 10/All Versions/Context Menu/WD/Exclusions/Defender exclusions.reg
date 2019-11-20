@@ -1,0 +1,73 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions]
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions]
+"MUIVerb"="Defender Exclusions"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,7"
+"SubCommands"=""
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions\shell\000Add]
+"MUIVerb"="Add exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,8"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions\shell\000Add\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Add Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Add-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions\shell\001Rem]
+"MUIVerb"="Remove exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,4"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DefenderExclusions\shell\001Rem\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Rem Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Remove-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
+
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions]
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions]
+"MUIVerb"="Defender Exclusions"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,7"
+"SubCommands"=""
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\Users\" OR System.ItemPathDisplay:=\"C:\\ProgramData\" OR System.ItemPathDisplay:=\"C:\\Program Files\" OR System.ItemPathDisplay:=\"C:\\Program Files (x86)\" OR System.ItemPathDisplay:=\"C:\\Windows\" OR System.ItemPathDisplay:=\"C:\\Windows\System32\")"
+
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions\shell\000Add]
+"MUIVerb"="Add exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,8"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions\shell\000Add\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Add Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Add-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions\shell\001Rem]
+"MUIVerb"="Remove exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,4"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DefenderExclusions\shell\001Rem\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Rem Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Remove-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
+
+[-HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions]
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions]
+"MUIVerb"="Defender Exclusions"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,7"
+"SubCommands"=""
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\\")"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions\shell\000Add]
+"MUIVerb"="Add exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,8"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions\shell\000Add\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Add Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Add-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions\shell\001Rem]
+"MUIVerb"="Remove exclusion"
+"Icon"="C:\\Program Files\\Windows Defender\\EppManifest.dll,4"
+"CommandFlags"=dword:00000010
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\DefenderExclusions\shell\001Rem\command]
+@="powershell -c \"mode 30,3;echo '';echo ' Rem Defender Exclusion...'; Start-Process powershell -ArgumentList '-c \\\"Remove-MpPreference -ExclusionPath ''%1''\\\"' -verb RunAs -window Hidden\""
