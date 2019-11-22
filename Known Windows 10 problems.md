@@ -30,7 +30,12 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 * Repeat the process with a search for `LowerCaseLongPathUnexpanded`, this returns the path which might causes update problems, remove the path and re-start the update procedure. 
 
 
-## Microsoft "Health Dashboard" (showns all known Windows problems)
+### Windows 10 coercing people into online accounts when loading Windows 10
+
+This only [affects US Windows 10 Home Editions](https://www.reddit.com/r/windows/comments/cuzo6w/windows_10_coercing_people_into_online_accounts/). As a [workaround](https://www.howtogeek.com/442609/confirmed-windows-10-setup-now-prevents-local-account-creation/) simply unplug your network cable and you will see the "use local account instead" button on the left corner.
+
+
+## Microsoft "Health Dashboard" (all known Windows problems)
 
 The official dashboard can be found over here:
 * [https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-1903)
