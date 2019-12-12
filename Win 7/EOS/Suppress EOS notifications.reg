@@ -1,7 +1,11 @@
 Windows Registry Editor Version 5.00
 
-; Windows 7 ESU
-; HOSTS: query.prod.cms.rt.microsoft.com
+; Windows 7 - Dec 2019 rollup & the expected Jan. 2020 full screen annoying warning
+; https://www.catalog.update.microsoft.com/Search.aspx?q=4528069
+; https://support.microsoft.com/en-us/help/4530734/windows-7-update-kb4530734
+;
+; HOSTS
+; query.prod.cms.rt.microsoft.com
 
 ; Tasks
 ; schtasks /Change /DISABLE /TN "Microsoft\Windows\Setup\EOSNotify"
@@ -10,7 +14,7 @@ Windows Registry Editor Version 5.00
 ; schtasks /Delete /F /TN "Microsoft\Windows\Setup\EOSNotify2"
 
 ; KB4530734
-[[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\DiskQuota]
+[[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\EOSNotify]
 "DiscontinueEOS"=dword:00000001
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\EOSNotify]
@@ -27,6 +31,8 @@ Windows Registry Editor Version 5.00
 ; schtasks /Change /DISABLE /TN "Microsoft\Windows\End Of Support\Notify2"
 ; schtasks /Delete /F /TN "Microsoft\Windows\End Of Support\Notify1"
 ; schtasks /Delete /F /TN "Microsoft\Windows\End Of Support\Notify2"
+; schtasks /Change /TN "Microsoft\Windows\Setup\EOSNotify2" /Disable
+; schtasks /Change /TN "Microsoft\Windows\Setup\EOSNotify" /Disable
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\SipNotify]
 "DontRemindMe"=dword:00000001
