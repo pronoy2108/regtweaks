@@ -132,14 +132,16 @@ Research
 * [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
 * [Security baseline (DRAFT) for Windows 10 v1903 and Windows Server v1903](https://blogs.technet.microsoft.com/secguide/2019/04/24/security-baseline-draft-for-windows-10-v1903-and-windows-server-v1903/)
 
-#### Articles
+
+#### Articles (Telemetry)
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
 - [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
+
 
 #### Optional Tools and Scripts
 * [Administrative Templates (.admx) for Windows 10 May 2019 Update (1909)](https://www.microsoft.com/en-us/download/100591)
 * [Aero Glass for Windows 8+](https://www.glass8.eu/)
-* [NTLite](https://www.ntlite.com) or (_free_) [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html)
+* [NTLite](https://www.ntlite.com) or (_free_) [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html), or [Optimize-Offline](https://github.com/DrEmpiricism/Optimize-Offline/)
 * [PowerToys](https://github.com/microsoft/PowerToys)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
 * [Sandbox Configuration Manager](https://gallery.technet.microsoft.com/Windows-Sandbox-Configurati-f2c863dc)
