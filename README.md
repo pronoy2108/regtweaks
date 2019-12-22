@@ -139,6 +139,7 @@ Research
 
 
 #### Optional Tools and Scripts
+* [OfflineInsiderEnroll - A script to enable access to the Windows Insider Program on machines not signed in with Microsoft Account](https://github.com/whatever127/offlineinsiderenroll)
 * [Administrative Templates (.admx) for Windows 10 May 2019 Update (1909)](https://www.microsoft.com/en-us/download/100591)
 * [Aero Glass for Windows 8+](https://www.glass8.eu/)
 * [NTLite](https://www.ntlite.com) or (_free_) [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html), or [Optimize-Offline](https://github.com/DrEmpiricism/Optimize-Offline/)
