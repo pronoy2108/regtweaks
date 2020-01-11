@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - present by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the [Mozilla Public License 2.0 license](https://github.com/CHEF-KOCH/regtweaks/blob/master/LICENSE) 2015 - present by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
 <p align="center">
