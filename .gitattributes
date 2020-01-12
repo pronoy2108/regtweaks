@@ -22,17 +22,13 @@
 # https://help.github.com/en/articles/dealing-with-line-endings
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 # https://git-scm.com/docs/gitattributes
-#*.reg                            diff=utf16strings
-#*.reg            text working-tree-encoding=UTF-16
+*.reg            text working-tree-encoding=UTF-16
 *.bat                                text eol=crlf
 *.BAT                                text eol=crlf
 *.cmd                                text eol=crlf
 *.CMD                                text eol=crlf
 *.inf                   diff linguist-language=INI
 *.ps1                                       eol=lf
-#*.reg         diff master-encoding=UTF-16 eol=crlf
-#*.REG         diff=astextplain
-*.reg            text working-tree-encoding=UTF-16
 *.sh                                        eol=lf
 *.txt                                     eol=crlf
 *.TXT                                     eol=crlf
