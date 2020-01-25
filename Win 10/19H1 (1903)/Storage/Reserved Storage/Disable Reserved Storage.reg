@@ -1,5 +1,16 @@
-﻿Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
+
+; Info:
+; Doing an in-place upgrade removes the storage
+; KB4497093 (needed)
+
+; Test:
+; Check current state via "fsutil storagereserve query c:"
+
+; Online Image (EXAMPLE, modify as per own needs)
+; dism.exe /Mount-WIM /WimFile:"x:\install.wim" /index:1 /MountDir:"c:\mount"
+; reg load HKLM\Test c:\Mount\windows\system32\config\software
+; After a reboot/apply you NEED to execute: dism /online /Cleanup-Image /StartComponentCleanup /resetbase
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager]
 "ShippedWithReserves"=dword:00000000
-"PassedPolicy"=dword:00000000
