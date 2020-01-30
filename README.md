@@ -20,7 +20,7 @@ Regtweaks (Win 8.1 - Win 10) Collection files original created under the [Mozill
 Project Goal(s)
 ------------
 
-1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
+1. All of the tweaks could be integrated into image creations tools (NTLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
 3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
 4. [Provide a short overview of current Windows issue](https://github.com/CHEF-KOCH/regtweaks/blob/master/Known%20Windows%20Issue.md) and how to quickly solve them.
@@ -131,6 +131,11 @@ Research
 * [Patch Tuesday Dashboard](https://patchtuesdaydashboard.com)
 * [NSA Windows Secure Host Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)
 * [Security baseline (DRAFT) for Windows 10 v1903 and Windows Server v1903](https://blogs.technet.microsoft.com/secguide/2019/04/24/security-baseline-draft-for-windows-10-v1903-and-windows-server-v1903/)
+
+
+### Search old KB articles
+- [Search old KB entries](https://mskb.pkisolutions.com/kb/search)
+- [Microsoft Product List](https://mskb.pkisolutions.com/products)
 
 
 #### Articles (Telemetry)
