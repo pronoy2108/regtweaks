@@ -138,7 +138,9 @@ Research
 - [Microsoft Product List](https://mskb.pkisolutions.com/products)
 
 
-#### Articles (Telemetry)
+#### Articles (Telemetry analyzed)
+- [Old german BSI Telemetry report, which tested Windows 10 Pro Build 1607](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Analyse_Telemetriekomponente.pdf?__blob=publicationFile&v=3)
+- [Latest Telemetry BSI report, which tested Windows 10 Pro Build 1909](https://www.lda.bayern.de/media/baylda_report_09.pdf)
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
 - [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
 
