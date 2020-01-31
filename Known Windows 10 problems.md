@@ -183,14 +183,15 @@ On AMD systems you _can block the update_ via [wushowhide.diagcab](https://suppo
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
-Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) v3 (Rev. 8) | 30. Aug. 2019 |
+Windows 10 1507 | [KB4494454](https://support.microsoft.com/en-us/help/4494174/kb4494174-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) v4 (Rev. 9) | 30. Jan. 2020 |
 Windows 10 1511 | // | // | // |
-Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4346087/kb4346087-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346087) v3 (Rev. 12) | 30. Aug. 2019 |
-Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4346086/kb4346086-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346086) v3 (Rev. 10) | 30. Aug. 2019 |
-Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4346085/kb4346085-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/search.aspx?q=4346085) v3 (Rev. 11) | 30. Aug. 2019 |
+Windows 10 1607 | [KB4494175](https://support.microsoft.com/en-us/help/4494175/kb4494175-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494175) v4 (Rev. 14) | 30. Jan. 2020 |
+Windows 10 1703 | [KB4494453](https://support.microsoft.com/en-us/help/4494453/kb4494453-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494453) v4 (Rev. 11) | 30. Jan. 2020 |
+Windows 10 1709 | [KB4494452](https://support.microsoft.com/en-us/help/4494452/kb4494452-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494452) v4 (Rev. 12) | 30. Jan. 2020 |
 Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4346084/kb4346084-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4346084) v2 (Rev. 5) | 30. Aug. 2019 |
-Windows 10 1809 | [KB4465065](https://support.microsoft.com/en-us/help/4465065/kb4465065-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=kb4465065) v2 (Rev. 3) | 30. Aug. 2019 |
-Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=4497165) v3 (Rev. 3) | 30. Aug 2019 |
+Windows 10 1809 | [KB4494174](https://support.microsoft.com/en-us/help/4494174/kb4494174-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4494174) v3 (Rev. 4) | 30. Jan. 2020 |
+Windows 10 1903 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) v4 (Rev. 5) | 30. Jan. 2020 |
+Windows 10 1909 | [KB4497165](https://support.microsoft.com/en-us/help/4497165/kb4497165-intel-microcode-updates) | [Download](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4497165) 23 (Rev. 1) | 30. Jan 2020 |
 
 
 ### Intel ZombieLoad
