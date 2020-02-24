@@ -136,6 +136,7 @@ Research
 ### Search old KB articles
 - [Search old KB entries](https://mskb.pkisolutions.com/kb/search)
 - [Microsoft Product List](https://mskb.pkisolutions.com/products)
+- [kbupdate](https://github.com/potatoqualitee/kbupdate)
 
 
 #### Articles (Telemetry analyzed)
