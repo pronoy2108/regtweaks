@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; VPN connection problems workaround
+; Domain only
+; https://support.microsoft.com/gl-es/help/4550028/firewall-profile-does-not-switch-to-domain-when-using-third-party-vpn
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters]
+"NegativeCachePeriod"=dword:00000000
+"MaxNegativeCacheTtl"=dword:00000000
