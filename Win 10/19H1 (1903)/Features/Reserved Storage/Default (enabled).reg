@@ -1,6 +1,17 @@
-﻿Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
+; Overview:
 ; https://blogs.technet.microsoft.com/filecab/2019/01/07/windows-10-and-reserved-storage/
+
+; Windows 2004+ (no registry tweak needed, DISM is enough)
+; Check current state:
+;  DISM.exe /Online /Get-ReservedStorageState
+
+; Enable (default state):
+; DISM.exe /Online /Set-ReservedStorageState /State:Enabled
+
+; Disable:
+; DISM.exe /Online /Set-ReservedStorageState /State:Disabled
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager]
 "ShippedWithReserves"=dword:00000001
