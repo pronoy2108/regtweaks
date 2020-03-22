@@ -22,7 +22,7 @@
 # https://help.github.com/en/articles/dealing-with-line-endings
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 # https://git-scm.com/docs/gitattributes
-*.reg            text working-tree-encoding=UTF-16
+#*.reg            text working-tree-encoding=UTF-16
 *.bat                                text eol=crlf
 *.BAT                                text eol=crlf
 *.cmd                                text eol=crlf
