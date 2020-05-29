@@ -19,9 +19,9 @@ The overview is provided 'as is' and is not designed to explain every little _fa
 |  1809 (Oct. 2018)  | Redstone 5 (RS5)        | October 2018 Update    | 17763 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) | 
 |  1903 (May 2019)  | 19H1                    | May 2019 Update      | 18362.30 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
 |  1909 (Nov. 2019)  | 19H2                    |  November Update    |  18363.418 | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1909-removed-features) |
-|  2004 (May 2020) | 20H1 (Vibranium)                    |   May Update    |  [19041.208](https://gist.github.com/CHEF-KOCH/7ab8229825cf6912d1a6db3a0a4f39c1)   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
+|  2004 (May 2020) | 20H1 (Vibranium)                    |   May Update    |  [19041.208](https://gist.github.com/CHEF-KOCH/7ab8229825cf6912d1a6db3a0a4f39c1)   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-deprecated-features) & [here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-removed-features) |
 |  2009 (Fall 2020)   | 20H2 (Manganese)                  |  Fall Update      | //   | [Here](https://docs.microsoft.com/en-us/windows/deployment/planning/windows-10-1903-removed-features) |
-|  210? or 21H1   | FE or Iron                |  //    | //   | //
+|  21H1   | FE or Iron                |  //    | //   | //
 
 
 ### I can't upgrade my OS I get the "This PC can't update to Windows 10" error message
