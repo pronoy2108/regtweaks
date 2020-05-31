@@ -157,3 +157,5 @@ Research
 * [Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) 
 * [WinLight](https://github.com/Biswa96/WinLight)
 * [WinToolkit](https://www.wincert.net)
+* [lusrmgr](https://github.com/proviq/lusrmgr) - Local User and Group Management application, for all Windows editions
+
