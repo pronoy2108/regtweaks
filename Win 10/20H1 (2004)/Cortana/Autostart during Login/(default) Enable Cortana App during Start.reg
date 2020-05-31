@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.549981C3F5F10_8wekyb3d8bbwe\Cortana.StartupID]
+"State"=dword:00000002
+
