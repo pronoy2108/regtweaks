@@ -6,8 +6,11 @@ If (-Not ($Principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administr
     Break
 }
 
+# Disable "Show web results" UI
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer" -Name "DisableSearchBoxSuggestions" -Type DWord -Value 1
 
-# Inbound Rule
+
+# Inbound Firewall Rule
 $SearchIn = @{
     "DisplayName" = "Windows Search (MyRule-In)"
     "Package"     = "S-1-15-2-536077884-713174666-1066051701-3219990555-339840825-1966734348-1611281757"
@@ -25,7 +28,7 @@ Else {
 }
 
 
-# Outbound Rule
+# Outbound Firewall Rule
 $SearchOut = @{
     "DisplayName" = "Windows Search (MyRule-Out)"
     "Package"     = "S-1-15-2-536077884-713174666-1066051701-3219990555-339840825-1966734348-1611281757"
