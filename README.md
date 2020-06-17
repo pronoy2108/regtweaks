@@ -2,7 +2,7 @@ Regtweaks (Win 8.1 - Win 10) Collection files original created under the [Mozill
 
 
 <p align="center">
-  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H1.jpg")">
+  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H2.jpg")">
 </p>
 
 **Current Status: Over 800+ tweaks**
