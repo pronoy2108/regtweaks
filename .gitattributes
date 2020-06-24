@@ -1,6 +1,6 @@
 # Set the default behavior, in case people don't have core.autocrlf=true set.
 # https://help.github.com/en/articles/dealing-with-line-endings
-*                       text=auto # Autodetect normal text files
+*                       text=auto
 *.gitattributes         text
 .gitignore              text
 *.psm1                  diff=asplaintext
@@ -60,7 +60,8 @@
 *.pdf           binary
 *.png           binary
 *.rar           binary
-*.reg           binary 
+# https://stackoverflow.com/questions/5046032/git-says-binary-files-a-and-b-differ-on-for-reg-files
+*.reg           binary
 *.zip           binary
 *.woff          binary
 *.ttf           binary
