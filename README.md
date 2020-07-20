@@ -5,7 +5,7 @@ Regtweaks (Win 8.1 - Win 10) Collection files original created under the [Mozill
   <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H2.jpg")">
 </p>
 
-**Current Status: Over 800+ tweaks**
+**Current Status: Over 900+ tweaks**
 
 
 ![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
@@ -63,9 +63,7 @@ There are several myths and misinformation about how the Windows Registry actual
 Find hidden Windows features yourself
 ------------
 
-[Mach2](https://github.com/riverar/mach2) is not an official Microsoft program. Nevertheless, you can still [download it from it's Github page](https://github.com/riverar/mach2/releases). It's recommended you run the tool with `--help` for details on how to use the tool. In order to find hidden features, Mach2 needs to scan PDB files, otherwise known as Program Database files, which contain debug symbols for the Windows executables. The problem, though, is that these symbol files are not installed with Windows and you need to download them from Microsoft's Symbol Server.
-
-A complete guide is [available here](https://www.bleepingcomputer.com/news/microsoft/finding-and-enabling-hidden-features-in-windows-10-using-mach2/).
+[ViVe Tool](https://github.com/thebookisclosed/ViVe/releases) is not an official Microsoft program. Nevertheless, you can still [download it from it's Github page](https://github.com/riverar/mach2/releases). 
 
 Keep in mind that not all feature IDs can be found within Windows debugging symbols. [Capstone](https://github.com/aquynh/capstone) is still needed in order to disassemble all hidden details.
 
@@ -144,6 +142,11 @@ Research
 - [Latest Telemetry BSI report, which tested Windows 10 Pro Build 1909](https://www.lda.bayern.de/media/baylda_report_09.pdf)
 - [SiSyPHuS Win10: Analyse der Telemetriekomponenten in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html)
 - [SiSyPHuS Win10: Studie zu Systemaufbau, Protokollierung, Härtung und Sicherheitsfunktionen in Windows 10](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/SiSyPHuS_node.html)
+
+
+#### Find hidden tweaks and unlock them
+* [mach2](https://github.com/riverar/mach2) - A complete guide is [available here](https://www.bleepingcomputer.com/news/microsoft/finding-and-enabling-hidden-features-in-windows-10-using-mach2/).
+* [ViveTool](https://github.com/thebookisclosed/ViVe/releases)
 
 
 #### Optional Tools and Scripts
