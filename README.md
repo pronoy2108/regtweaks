@@ -161,4 +161,5 @@ Research
 * [WinLight](https://github.com/Biswa96/WinLight)
 * [WinToolkit](https://www.wincert.net)
 * [lusrmgr](https://github.com/proviq/lusrmgr) - Local User and Group Management application, for all Windows editions
+* [OfflineInsiderEnroll](https://github.com/luzeagithub/offlineinsiderenroll) - OfflineInsiderEnroll - A script to enable access to the Windows Insider Program on machines not signed in with Microsoft Account.
 
