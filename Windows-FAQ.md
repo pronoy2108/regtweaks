@@ -404,6 +404,12 @@ Navigate to `C:\Program Files (x86)\Microsoft\Edge\Application` and selected the
 
 `setup.exe --uninstall --system-level --verbose-logging --force-uninstall`
 
+Since KB4562830 (Feature Update) 2009 MS tries to block this method, so you need to remove these two entries from your registry:
+```bash
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge" /v NoRemove /f
+reg delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge" /v NoRemove /f
+```
+
 
 ### How long does MS Edge gets security Updates?
 
