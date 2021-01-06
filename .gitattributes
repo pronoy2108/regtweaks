@@ -3,6 +3,8 @@
 *                       text=auto
 *.gitattributes         text
 .gitignore              text
+*.psm1                  diff=asplaintext
+*.psd1                  diff=localizablestrings
 
 # Exclude files from exporting.
 .gitattributes    export-ignore
@@ -11,27 +13,44 @@
 # Visual Studio Studio/Core (because I use it)
 #*.sln            text eol=crlf
 #*.xproj          text eol=crlf
+#*.sln            merge=binary
+#*.csproj         merge=binary
+#*.vbproj         merge=binary
+#*.vcxproj        merge=binary
+#*.vcproj         merge=binary
+#*.dbproj         merge=binary
+#*.fsproj         merge=binary
+#*.lsproj         merge=binary
+#*.wixproj        merge=binary
+#*.modelproj      merge=binary
+#*.sqlproj        merge=binary
+#*.wwaproj        merge=binary
 *.filters         text eol=crlf
 *.props           text eol=crlf
 *.vcproj          text eol=crlf
 *.vcxitems        text eol=crlf
 *.vcxproj         text eol=crlf
-*.cs       diff=csharp
+*.cs              diff=csharp
+*.sh              text eol=lf
 
 # Declare files that will always have CRLF line endings on checkout.
-# https://help.github.com/en/articles/dealing-with-line-endings
 # https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 # https://git-scm.com/docs/gitattributes
-#*.reg            text working-tree-encoding=UTF-16
+# https://github.com/git/git/commit/fe21c6b285df4088f9685d5deed425064367ea24
+# https://github.com/git/git/commit/665177ebf2e948504dcb255d2f58817224a8935a
+#*.reg text working-tree-encoding=UTF-16LE eol=CRLF
+*.ahk                                text eol=crlf
 *.bat                                text eol=crlf
 *.BAT                                text eol=crlf
 *.cmd                                text eol=crlf
 *.CMD                                text eol=crlf
 *.inf                   diff linguist-language=INI
-*.ps1                                       eol=lf
-*.sh                                        eol=lf
-*.txt                                     eol=crlf
-*.TXT                                     eol=crlf
+*.ps1                                text eol=lf
+*.psc1                               text eol=crlf
+*.sh                                      eol=lf
+*.DotSettings                        text eol=lf
+*.xml                                text
+
 
 # Denote all files that are truly binary and should not be modified.
 *.cer           binary
@@ -41,7 +60,17 @@
 *.pdf           binary
 *.png           binary
 *.rar           binary
+# https://stackoverflow.com/questions/5046032/git-says-binary-files-a-and-b-differ-on-for-reg-files
+*.reg           binary
 *.zip           binary
+*.woff          binary
+*.ttf           binary
+*.eot           binary
+*.xls           binary
+*.xlsx          binary
+*.doc           binary
+*.docx          binary
+*.gif           binary
 
 # LaTeX
 *.BIB           eol=crlf
@@ -49,7 +78,6 @@
 *.TEX           eol=crlf
 *.bib           eol=crlf
 *.lyx           eol=crlf
-*.LYX           eol=crlf
 *.tex           eol=crlf
 
 # Handle Group Policy templates as text so they can be diff'ed
@@ -57,15 +85,31 @@
 *.admx          diff linguist-language=XML
 *.adm           diff linguist-language=XML
 
+####################################################################
 # In Visual Studio Code set the following (encoding per language):
 # https://github.com/Microsoft/vscode/issues/4891
 # https://code.visualstudio.com/docs/languages/identifiers
+####################################################################
 #"[reg]": {
 #    "files.encoding": "utf16le",
 #    "files.autoGuessEncoding": true,
 #}
 
-# In your .gitconfig you need to set the following
+######################################
+# Your gitconfig MUST look like this #
+######################################
+# [core]
+#    repositoryformatversion = 0
+#    filemode = false
+#    bare = false
+#    logallrefupdates = true
+#    symlinks = false
+#    ignorecase = true
+#    hideDotFiles = dotGitOnly
+
+####################################################
+# In your .gitconfig you MUST to set the following #
+####################################################
 # https://stackoverflow.com/questions/777949/can-i-make-git-recognize-a-utf-16-file-as-text/21020607#21020607
 #[diff "utf16"]
 #    textconv = "iconv -f utf-16 -t utf-8"

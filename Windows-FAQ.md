@@ -398,6 +398,24 @@ There are multiple ways, the official way is that you install [Windows Admin Cen
 There is no registry "hack" for this anymore, Microsoft closed this as "bug". But you can manipulate the explorer.exe file via e.g. [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) [(Microsoft Store link)](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9), [TaskDock](https://github.com/vhanla/TaskbarDock) or [StartIsBack++](https://www.startisback.com/).
 
 
+### How do I uninstall MS Edgeium (MS Edge Chromium)?
+
+Navigate to `C:\Program Files (x86)\Microsoft\Edge\Application` and selected the newest (latest) versions number you have installed, in the versions folder you find an sub-folder called Ìnstaller`, there is an setup.exe which can be called via Powershell (see example below):
+
+`setup.exe --uninstall --system-level --verbose-logging --force-uninstall`
+
+Since KB4562830 (Feature Update) 2009 MS tries to block this method, so you need to remove these two entries from your registry:
+```bash
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge" /v NoRemove /f
+reg delete "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge" /v NoRemove /f
+```
+
+
+### How long does MS Edge gets security Updates?
+
+MS Edge (Legacy) is already EOL (gets replaced with the Chromium version) which means you [get security updates until March 2021](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666).
+
+
 ## Official Reference Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)
 - [Windows lifecycle fact sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)

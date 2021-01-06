@@ -1,0 +1,7 @@
+# Deep-Scan 
+# https://github.com/marketplace/actions/dep-scan
+# https://github.com/AppThreat/dep-scan
+- uses: AppThreat/dep-scan-action@master
+  env:
+    VULNDB_HOME: ${{ github.workspace }}/db
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
