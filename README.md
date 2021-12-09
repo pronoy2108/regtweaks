@@ -2,7 +2,7 @@ Regtweaks Collection files original created under the [Mozilla Public License 2.
 
 
 <p align="center">
-  <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H2.jpg")">
+  <img width="500" height="320" src="https://web.archive.org/web/20200605140339im_/https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/.github/Pictures/20H1.jpg")">
 </p>
 
 **Current Status: Over 900+ tweaks**
